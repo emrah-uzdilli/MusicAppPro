@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="myt.music.app_pro.z_MainActivity">
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_origin"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <fragment
+            android:id="@+id/fragment_main_list_view"
+            android:name="myt.music.app_pro.z_FragmentMainListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/z_fragment_main_listview"/>
+
+
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/fragment_music_playing"
+        android:name="myt.music.app_pro.z_FragmentMusicPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adViewContainer"
+        android:layout_alignParentBottom="true"
+        >
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="servetpalta.com.myapplication.MainActivity">
+
+
+
+    <item
+        android:id="@+id/turk"
+        android:orderInCategory="100"
+        android:title="@string/turk"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/yabanci"
+        android:orderInCategory="100"
+        android:title="@string/yabanci"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/yeni"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/yeni"
+        app:showAsAction="never" />
+
+</menu>

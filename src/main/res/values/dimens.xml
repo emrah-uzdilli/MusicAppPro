@@ -1,0 +1,61 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="default_margin">20dp</dimen>
+    <dimen name="progress_text_size">15sp</dimen>
+
+    <dimen name="error_horizontal_padding">4dp</dimen>
+    <dimen name="error_vertical_padding">16dp</dimen>
+
+    <!-- playback controls -->
+    <dimen name="playback_controls_albumart_horizontal_margin">8dp</dimen>
+    <dimen name="playback_controls_albumart_size">64dp</dimen>
+    <dimen name="playback_controls_padding">8dp</dimen>
+
+    <!-- navigation drawer -->
+    <dimen name="drawer_item_icon_margin_end">32dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_item_horizontal_padding">16dp</dimen>
+
+    <!-- media browser listview -->
+    <dimen name="media_item_height">72dp</dimen>
+    <dimen name="media_item_icon_margin_start">12dp</dimen>
+    <dimen name="media_item_text_margin_start">60dp</dimen>
+    <!-- Margins for the ShowcaseView button -->
+    <dimen name="button_margin">50dp</dimen>
+
+    <!-- Margins for full screen activity-->
+    <dimen name="text_view_margin">16dp</dimen>
+    <dimen name="end_text_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_extra_micro">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="corner_radius_default">4dp</dimen>
+    <dimen name="corner_radius_rounded">25dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="icon_size">50dp</dimen>
+
+    <!-- Nofication bar button -->
+    <dimen name="status_bar_button_width_height">48dp</dimen>
+    <dimen name="status_bar_album_art">64dp</dimen>
+    <dimen name="status_bar_button_info_container_padding_left">11dp</dimen>
+    <dimen name="notification_expanded_height">128.0dip</dimen>
+    <dimen name="play_controls_notification">48.0dip</dimen>
+    <dimen name="notification_padding">8.0dip</dimen>
+
+
+
+</resources>

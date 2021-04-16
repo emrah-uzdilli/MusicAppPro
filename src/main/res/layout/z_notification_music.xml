@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/custom_song_icon"
+        android:layout_width="40dp"
+        android:scaleType="fitXY"
+        android:layout_height="40dp"
+        android:contentDescription="@string/background_image_str"
+        android:src="@drawable/ts_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_custom_song_name"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_weight="7"
+        android:maxLines="1"
+        android:text="@string/currently_playing_song"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <ImageButton
+        android:id="@+id/btn_custom_play"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="0dp"
+        android:background="#00000000"
+        android:contentDescription="@string/now_playing"
+        android:src="@drawable/pause" />
+
+
+        <ImageButton
+            android:id="@+id/btn_custom_exit"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:background="#00000000"
+            android:contentDescription="@string/now_playing"
+            android:src="@drawable/ic_close_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

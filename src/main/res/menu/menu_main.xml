@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="servetpalta.com.myapplication.MainActivity">
+
+    <item
+    android:id="@+id/open_file"
+    android:orderInCategory="100"
+    android:title="Open Downloads"
+    android:icon="@drawable/ic_folder_white_24dp"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/open_filee"
+        android:orderInCategory="100"
+        android:title="@string/downloads"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:title="@string/ratee"
+        android:icon="@drawable/dolu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="@string/sharee"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="Disclaimer"
+        app:showAsAction="never" />
+
+</menu>

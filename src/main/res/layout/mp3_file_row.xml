@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8">
+        <ImageButton
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_music_note_24dp"
+            android:id="@+id/playstop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/txt_layout"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Header"
+            android:shadowColor="#7F000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/authortext"
+            android:maxLines="1"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:text="Content"
+            android:id="@+id/songtext"
+            android:maxLines="1"
+            android:textColor="#000"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toStartOf="@id/musictime"
+            android:background="@drawable/deletee" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="06:00"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/musictime"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
